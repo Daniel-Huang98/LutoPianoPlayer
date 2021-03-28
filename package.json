@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "$(npm bin)cypress open",
+    "test": "$(npm bin)/cypress open",
     "run": "$(npm bin)/cypress run --headed"
   },
   "author": "Daniel Huang",
