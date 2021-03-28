@@ -1,14 +1,14 @@
 # Installation
 
-npm i
+> npm i
 
 # Run
 
-npm run-script run
+> npm run-script run
 
 # Test
 
-npm test
+> npm test
 
 # Data Type
 
