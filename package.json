@@ -1,0 +1,16 @@
+{
+  "name": "lutoplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)cypress open",
+    "run": "$(npm bin)/cypress run --headed"
+  },
+  "author": "Daniel Huang",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
