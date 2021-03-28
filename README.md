@@ -21,28 +21,30 @@ npm test
 
 # Notes-String Equivalents
 
-q = "q"
-w = "w"
-e = "e"
-r = "r"
-t = "t"
-y = "y"
-u = "u"
-i/c = "i/c"
-v = "v"
-b = "b"
-n = "n"
-m = "m"
-, = ","
-. = "\\."
-/ = "/"
-2 = "2"
-3 = "3"
-5 = "5"
-6 = "6"
-7 = "7"
-f = "f"
-g = "g"
-j = "j"
-k = "k"
-l = "l"
+<ol>
+<li>q = "q"</li>
+<li>w = "w"</li>
+<li>e = "e"</li>
+<li>r = "r"</li>
+<li>t = "t"</li>
+<li>y = "y"</li>
+<li>u = "u"</li>
+<li>i/c = "i/c"</li>
+<li>v = "v"</li>
+<li>b = "b"</li>
+<li>n = "n"</li>
+<li>m = "m"</li>
+<li>, = ","</li>
+<li>. = "\\."</li>
+<li>/ = "/"</li>
+<li>2 = "2"</li>
+<li>3 = "3"</li>
+<li>5 = "5"</li>
+<li>6 = "6"</li>
+<li>7 = "7"</li>
+<li>f = "f"</li>
+<li>g = "g"</li>
+<li>j = "j"</li>
+<li>k = "k"</li>
+<li>l = "l"</li>
+</ol>
