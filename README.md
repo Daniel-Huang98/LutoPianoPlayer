@@ -16,11 +16,14 @@
 <code>
 [
     {
-        "key": key-string,
-        "sleep_time": time in milliseconds
+        "key": string,
+        "sleep_time": number
     }
 ]
 </code>
+
+<p>key: determines which key to press. Refer below for key-string equivalents.</p>
+<p>sleep_time: determines how long to hold the key for in milliseconds</p>
 
 # Notes-String Equivalents
 
