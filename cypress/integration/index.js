@@ -7,12 +7,16 @@ describe("Let's run this bad boy", () => {
       for (const key of keyPressData) {
         if (key.key === "p") {
           cy.wait(key.sleep_time);
-        } else {
+        } else if (key.command == "up") {
+          cy.get("button")
+            .contains(new RegExp("^" + key.key + "$"))
+            .trigger("mouseup")
+            .wait(key.sleep_time);
+        } else if (key.command == "down") {
           cy.get("button")
             .contains(new RegExp("^" + key.key + "$"))
             .trigger("mousedown")
-            .wait(key.sleep_time)
-            .trigger("mouseup");
+            .wait(key.sleep_time);
         }
       }
     });
