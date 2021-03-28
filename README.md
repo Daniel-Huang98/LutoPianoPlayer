@@ -13,12 +13,14 @@
 # Data Type
 
 <p>Refer to input.json for reference</p>
+<code>
 [
-{
-"key": key-string,
-"sleep_time": time in milliseconds
-}
+    {
+        "key": key-string,
+        "sleep_time": time in milliseconds
+    }
 ]
+</code>
 
 # Notes-String Equivalents
 
