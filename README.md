@@ -30,6 +30,7 @@
 # Notes-String Equivalents
 
 <ol>
+<li>p = pause</li>
 <li>q = "q"</li>
 <li>w = "w"</li>
 <li>e = "e"</li>

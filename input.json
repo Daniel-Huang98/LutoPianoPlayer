@@ -14,6 +14,7 @@
   { "key": ",", "sleep_time": 500 },
   { "key": "\\.", "sleep_time": 500 },
   { "key": "/", "sleep_time": 500 },
+  { "key": "p", "sleep_time": 500 },
   { "key": "2", "sleep_time": 500 },
   { "key": "3", "sleep_time": 500 },
   { "key": "5", "sleep_time": 500 },

@@ -5,11 +5,15 @@ describe("Let's run this bad boy", () => {
 
     cy.readFile("input.json").then((keyPressData) => {
       for (const key of keyPressData) {
-        cy.get("button")
-          .contains(new RegExp("^" + key.key + "$"))
-          .trigger("mousedown")
-          .wait(key.sleep_time)
-          .trigger("mouseup");
+        if (key.key === "p") {
+          cy.wait(key.sleep_time);
+        } else {
+          cy.get("button")
+            .contains(new RegExp("^" + key.key + "$"))
+            .trigger("mousedown")
+            .wait(key.sleep_time)
+            .trigger("mouseup");
+        }
       }
     });
   });
