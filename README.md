@@ -22,8 +22,10 @@
 ]
 </code>
 
-<p>key: determines which key to press. Refer below for key-string equivalents.</p>
-<p>sleep_time: determines how long to hold the key for in milliseconds</p>
+<ul>
+<li><p>key: determines which key to press. Refer below for key-string equivalents.</p></li>
+<li><p>sleep_time: determines how long to hold the key for in milliseconds</p></li>
+</ul>
 
 # Notes-String Equivalents
 
