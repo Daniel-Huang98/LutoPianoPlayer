@@ -12,6 +12,7 @@ npm test
 
 # Data Type
 
+<p>Refer to input.json for reference</p>
 [
 {
 "key": key-string,
